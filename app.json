@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "expo-react-animation",
+    "slug": "expo-react-animation",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "expo-react-animation"
+}
