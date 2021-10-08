@@ -1,0 +1,39 @@
+import {StyleSheet} from "react-native";
+
+export const AirMenuStyle = StyleSheet.create({
+    AirmenuContainner:{
+        width:"100%",
+        height:"100%",
+    },
+    AreaMenuCircle:{
+        width:150,
+        height:150,
+    },
+    CircleButtonAnimated:{
+        backgroundColor:"rgba(255,85,85,255)",
+        width:54,
+        height:54,
+        borderRadius:54,
+        position:"absolute",
+        zIndex:999,
+        justifyContent:"center",
+        alignItems:"center",
+    },
+    ElementMenuStyle:{
+        backgroundColor:"rgba(255,128,128,255)",
+        width:34,
+        height:34,
+        borderRadius:34,
+        justifyContent:"center",
+        alignItems:"center",
+        position:"absolute",
+        right:10,
+        zIndex:999,
+    },
+    PositionAreaMenu:{
+        width:"100%",
+        height:"100%",
+        alignItems:"flex-end",
+        justifyContent:"flex-end",
+    },
+});
